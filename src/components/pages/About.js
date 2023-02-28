@@ -1,16 +1,12 @@
 import React from 'react';
+import "./about.css"
 
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1 className= "h1-style"> About Page</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        My name is Ghazala and I'm currently in a web development bootcamp at UC Davis. I'm actively looking for job opportunities at an entry level. I'm excited and looking forward to learning more about web development. I am a people's person as well as a problem solver who is passionate about learning new skills. 
       </p>
     </div>
   );
