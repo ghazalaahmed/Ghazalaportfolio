@@ -19,7 +19,9 @@ export default function Resume() {
       <h3>Soft skills</h3>
       <ul>
         <li>Strong oral and written communication skills</li>
-        <li>Dedicated team player</li>
+        <li>Problem-solver</li>
+        <li>Time management</li>
+        <li>Team player</li>
       </ul>
       <h3> Technical skills</h3>
       <ul>

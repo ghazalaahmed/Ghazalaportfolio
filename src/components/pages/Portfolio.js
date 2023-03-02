@@ -1,17 +1,41 @@
 import React from 'react';
+import Project from "../Project";
 
 export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+      <Project
+      id={1}
+      key ={1}
+      name = {"techblog"}
+      image = {"/assets/project1.png"}
+      githubRepo = {"https://github.com/ghazalaahmed/techblog"}
+      deployLink = {"https://techblogmodule14.herokuapp.com/"}
+      div>
+      <Project
+      id={2}
+      key ={2}
+      name = {"passwordgenerator"}
+      image = {"/assets/passwordgenerator.png"}
+      githubRepo = {"https://github.com/ghazalaahmed/passwordgenerator.git"}
+      deployLink = {"https://ghazalaahmed.github.io/passwordgenerator/"}
+      />
+      <Project
+      id={3}
+      key ={3}
+      name = {"notetaker"}
+      image = {"/assets/Notetaker.png"}
+      githubRepo = {"https://github.com/ghazalaahmed/notetaker.git"}
+      deployLink = {"https://note-takerchallenge.herokuapp.com/notes"}
+      />
+      <Project
+      id={4}
+      key ={4}
+      name = {"weatherdashboard"}
+      image = {"/assets/weatherdashboard.png"}
+      githubRepo = {"https://github.com/ghazalaahmed/weatherdashboard.git"}
+      deployLink = {"https://ghazalaahmed.github.io/weatherdashboard"}
+       <div>
   );
 }
