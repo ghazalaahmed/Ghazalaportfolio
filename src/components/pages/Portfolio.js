@@ -12,7 +12,7 @@ export default function Portfolio() {
       image = {"/assets/project1.png"}
       githubRepo = {"https://github.com/ghazalaahmed/techblog"}
       deployLink = {"https://techblogmodule14.herokuapp.com/"}
-      div>
+/>
       <Project
       id={2}
       key ={2}
@@ -36,6 +36,7 @@ export default function Portfolio() {
       image = {"/assets/weatherdashboard.png"}
       githubRepo = {"https://github.com/ghazalaahmed/weatherdashboard.git"}
       deployLink = {"https://ghazalaahmed.github.io/weatherdashboard"}
-       <div>
+      />
+    </div>
   );
 }

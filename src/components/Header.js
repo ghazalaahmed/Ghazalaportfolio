@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../components/pages/NavTabs";
+import Nav from "./NavTabs";
 
 function Header(props) {
   const { currentTab, handleTabChange } = props;
